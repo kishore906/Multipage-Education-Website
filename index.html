@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multipage Online Courses Website</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header With Navigation Links -->
+    <header>
+      <div class="container">
+        <div class="headerWithNav">
+          <a href="index.html" class="logo"
+            ><img src="images/logo1.jpg" alt="" /><span>UpSkill</span></a
+          >
+          <div class="nav_links">
+            <a href="#"
+              ><i class="fa fa-close" id="closeBtn" onclick="closeNav()"></i
+            ></a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" id="login" target="_blank">Login</a>
+            <a href="signup.html" id="signup" target="_blank">SignUp</a>
+          </div>
+          <i class="fa fa-bars" id="openBtn" onclick="openNav()"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>UpSkill Yourself With Awesome Courses</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem
+            accusamus animi optio enim cum officia blanditiis, amet debitis ut
+            nisi similique dolorum soluta voluptate. Hic, ducimus maiores? Iste,
+            officiis nulla.
+          </p>
+          <div class="btns">
+            <a href="#features" id="btn-learnMore">Learn More</a>
+            <a href="#courses" id="btn-courses">View Courses</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="container">
+        <div class="section-title">
+          <h2>Awesome Features</h2>
+          <p>Know about our awesome features</p>
+        </div>
+        <div class="features-container">
+          <div class="feature">
+            <i class="fa fa-newspaper-o"></i>
+            <h3>Global Certfication</h3>
+            <p>
+              Lorem ipsum dolor sit amet consecte adipisicing elit. Aspernatur
+              error ipsam, soluta eveniet qui consequatur.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fa fa-book"></i>
+            <h3>Sell Online Course</h3>
+            <p>
+              Lorem ipsum dolor sit amet consecte adipisicing elit. Aspernatur
+              error ipsam, soluta eveniet qui consequatur.
+            </p>
+          </div>
+          <div class="feature">
+            <i class="fa fa-money"></i>
+            <h3>Monthly Payments</h3>
+            <p>
+              Lorem ipsum dolor sit amet consecte adipisicing elit. Aspernatur
+              error ipsam, soluta eveniet qui consequatur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of features Section -->
+
+    <!-- Courses Section -->
+    <section id="courses">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Popular Courses</h2>
+          <p>Know about our popular courses</p>
+        </div>
+        <div class="courses-container">
+          <div class="course">
+            <div class="image">
+              <img src="images/c1.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$49.99</span>
+            </div>
+            <a href="course.html" target="_blank"
+              ><h4>Javascript Beginner Course</h4></a
+            >
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(355)</span>
+            </div>
+          </div>
+          <div class="course">
+            <div class="image">
+              <img src="images/c2.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$49.99</span>
+            </div>
+            <a href="course.html" target="_blank"><h4>HTML & CSS Course</h4></a>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(675)</span>
+            </div>
+          </div>
+          <div class="course">
+            <div class="image">
+              <img src="images/c3.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$29.99</span>
+            </div>
+            <a href="course.html" target="_blank"
+              ><h4>Python Beginner Course</h4></a
+            >
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(450)</span>
+            </div>
+          </div>
+          <div class="course">
+            <div class="image">
+              <img src="images/c4.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$49.99</span>
+            </div>
+            <a href="course.html" target="_blank"><h4>MERN Stack Course</h4></a>
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(300)</span>
+            </div>
+          </div>
+          <div class="course">
+            <div class="image">
+              <img src="images/c5.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$39.99</span>
+            </div>
+            <a href="course.html" target="_blank"
+              ><h4>Web Development Crash Course</h4></a
+            >
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(250)</span>
+            </div>
+          </div>
+          <div class="course">
+            <div class="image">
+              <img src="images/c6.jpg" alt="" />
+            </div>
+            <div class="price">
+              <span>$29.99</span>
+            </div>
+            <a href="course.html" target="_blank"
+              ><h4>Angular Crash Course</h4></a
+            >
+            <div class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+              <span class="review_count">(450)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Courses Section -->
+
+    <section id="offer">
+      <div class="offer-content">
+        <p id="offer-info"><strong>Discount</strong> is going on for courses</p>
+        <h2>Register to get the discount</h2>
+        <div class="time_left_container">
+          <div class="timeleft-info">
+            <p>
+              20 <br />
+              Days
+            </p>
+          </div>
+          <div class="timeleft-info">
+            <p>
+              18 <br />
+              Hours
+            </p>
+          </div>
+          <div class="timeleft-info">
+            <p>
+              08 <br />
+              Mins
+            </p>
+          </div>
+          <div class="timeleft-info">
+            <p>
+              35 <br />
+              Secs
+            </p>
+          </div>
+        </div>
+        <a href="signup.html" id="register_btn" target="_blank">Register</a>
+      </div>
+    </section>
+    <!-- End of Offer Section -->
+
+    <!-- Community Experts Section -->
+    <section id="experts">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our Community Experts</h2>
+          <p>Meet our community experts</p>
+        </div>
+        <div class="experts-container">
+          <div class="expert-info">
+            <img src="images/female.webp" alt="" />
+            <h4>Jessica Watson</h4>
+            <p>Full Stack Developer</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+          <div class="expert-info">
+            <img src="images/men.jpg" alt="" />
+            <h4>Steve Smith</h4>
+            <p>Data Scientist</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+          <div class="expert-info">
+            <img src="images/female.webp" alt="" />
+            <h4>Jennifer Smith</h4>
+            <p>Design Expert</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+          <div class="expert-info">
+            <img src="images/men.jpg" alt="" />
+            <h4>Tim Joseph</h4>
+            <p>Web Developer</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Community Experts Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <div class="links">
+            <h3>Top Courses</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Full Stack Development</li>
+              <li>Python Development</li>
+              <li>Javascript Crash Course</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Courses</li>
+              <li>Terms of Service</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>NewsLetter</h3>
+            <p>Wnat to get info about new offers</p>
+            <div class="newsletter">
+              <input type="text" placeholder="info@example.com" />
+              <button id="btn-subscribe">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy;2023 <strong>Upskill</strong> All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Arrow up Button -->
+    <a href="#" id="arrow-up"><i class="fa fa-arrow-up"></i></a>
+    <script src="script.js"></script>
+  </body>
+</html>

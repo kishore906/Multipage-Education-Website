@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multipage Online Courses Website</title>
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header With Navigation Links -->
+    <header>
+      <div class="container">
+        <div class="headerWithNav">
+          <a href="index.html" class="logo"
+            ><img src="images/logo1.jpg" alt="" /><span>UpSkill</span></a
+          >
+          <div class="nav_links">
+            <a href="#"
+              ><i class="fa fa-close" id="closeBtn" onclick="closeNav()"></i
+            ></a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <i class="fa fa-bars" id="openBtn" onclick="openNav()"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Hero Section -->
+    <section id="about-hero">
+      <div class="container">
+        <h2>All Blog Posts/</h2>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Blogs Section -->
+    <section id="blogs-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>All Blog Posts</h2>
+          <p>Want to get more information read our informative blogs</p>
+        </div>
+
+        <div class="blogs-main-section">
+          <!-- All Blogs -->
+          <div class="allBlogs">
+            <div class="blogs">
+              <div class="image">
+                <img src="images/c1.jpg" alt="" />
+              </div>
+              <h3>Improve Coding With these 10 useful tips</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                similique beatae esse, dicta neque exercitationem minus nulla,
+                eos repellendus fuga veniam dolorum repellat perferendis velit!
+                Magni quisquam amet numquam explicabo.
+              </p>
+              <a href="#" class="btn-readMore">Read More..</a>
+            </div>
+
+            <div class="blogs">
+              <div class="image">
+                <img src="images/b4.png" alt="" />
+              </div>
+              <h3>Learn Python Programming In The Easiest Way</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                similique beatae esse, dicta neque exercitationem minus nulla,
+                eos repellendus fuga veniam dolorum repellat perferendis velit!
+                Magni quisquam amet numquam explicabo.
+              </p>
+              <a href="#" class="btn-readMore">Read More..</a>
+            </div>
+
+            <div class="blogs">
+              <div class="image">
+                <img src="images/b1.jpg" alt="" />
+              </div>
+              <h3>
+                Imporatant Javascript concepts to know before learning React JS
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+                similique beatae esse, dicta neque exercitationem minus nulla,
+                eos repellendus fuga veniam dolorum repellat perferendis velit!
+                Magni quisquam amet numquam explicabo.
+              </p>
+              <a href="#" class="btn-readMore">Read More..</a>
+            </div>
+          </div>
+
+          <!-- Categories Section -->
+          <div class="categories">
+            <h3>Categories</h3>
+            <ul class="categories_list">
+              <li>Front End Development</li>
+              <li>Back End Development</li>
+              <li>Full Stack Development</li>
+              <li>Data Analyst</li>
+              <li>Data Scientist</li>
+              <li>Machine Learning</li>
+              <li>Javscript Hacks</li>
+              <li>Python Programming tips</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Blogs Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <div class="links">
+            <h3>Top Courses</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Full Stack Development</li>
+              <li>Python Development</li>
+              <li>Javascript Crash Course</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Courses</li>
+              <li>Terms of Service</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>NewsLetter</h3>
+            <p>Wnat to get info about new offers</p>
+            <div class="newsletter">
+              <input type="text" placeholder="info@example.com" />
+              <button id="btn-subscribe">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy;2023 <strong>Upskill</strong> All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Arrow up Button -->
+    <a href="#" id="arrow-up"><i class="fa fa-arrow-up"></i></a>
+    <script src="script.js"></script>
+  </body>
+</html>

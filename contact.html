@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header With Navigation Links -->
+    <header>
+      <div class="container">
+        <div class="headerWithNav">
+          <a href="index.html" class="logo"
+            ><img src="images/logo1.jpg" alt="" /><span>UpSkill</span></a
+          >
+          <div class="nav_links">
+            <a href="#"
+              ><i class="fa fa-close" id="closeBtn" onclick="closeNav()"></i
+            ></a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="courses.html">Courses</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <i class="fa fa-bars" id="openBtn" onclick="openNav()"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Hero Section -->
+    <section id="about-hero">
+      <div class="container">
+        <h2>Contact Us/</h2>
+      </div>
+    </section>
+    <!-- End of Hero Section -->
+
+    <!-- Contact Us Main Section -->
+    <section id="main-contact-section">
+      <div class="container">
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="info">
+              <i class="fa fa-map-marker"></i>
+              <p>2 Ann Street, Sydney, New South Wales</p>
+            </div>
+            <div class="info">
+              <i class="fa fa-envelope-o"></i>
+              <p>support@upskill.com</p>
+            </div>
+            <div class="info">
+              <i class="fa fa-phone"></i>
+              <p>+111 222 333 444</p>
+            </div>
+            <div class="social-links">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="">
+              <input type="text" placeholder="Your Name" />
+              <input type="text" placeholder="Your Email" />
+              <input type="text" placeholder="Subject" />
+              <textarea id="message" cols="30" rows="10">
+ Message us..</textarea
+              >
+              <button id="btn-sendMessage">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Us Section -->
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <div class="links">
+            <h3>Top Courses</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Full Stack Development</li>
+              <li>Python Development</li>
+              <li>Javascript Crash Course</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>Courses</li>
+              <li>Terms of Service</li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>NewsLetter</h3>
+            <p>Wnat to get info about new offers</p>
+            <div class="newsletter">
+              <input type="text" placeholder="info@example.com" />
+              <button id="btn-subscribe">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright &copy;2023 <strong>Upskill</strong> All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- End of Footer Section -->
+
+    <!-- Arrow up Button -->
+    <a href="#" id="arrow-up"><i class="fa fa-arrow-up"></i></a>
+    <script src="script.js"></script>
+  </body>
+</html>
